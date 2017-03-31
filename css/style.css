@@ -238,6 +238,11 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   visibility: visible;
 }
+.fh5co-tab-wrap .fh5co-tab-content span{
+  font-size: 15px;
+  color: #F39E31;
+  margin-right: 10px;
+}
 .fh5co-tab-wrap .fh5co-tab-content .fh5co-content-inner {
   padding: 7em 2em 5em 2em;
   float: left;
@@ -249,6 +254,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 4em .5em 5em .5em;
   }
 }
+.fh5co-content-inner h3{color: #5c8c8c;}
 
 figure {
   margin-bottom: 1.5em;
@@ -463,6 +469,9 @@ figure {
 
 .row-bottom-padded-sm {
   padding-bottom: 1em;
+}
+.row-bottom-padded-sm h1{
+  padding-top: 10px;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {
